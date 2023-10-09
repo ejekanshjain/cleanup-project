@@ -1,0 +1,27 @@
+{
+  "name": "cleanup-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cli.js",
+  "bin": {
+    "cleanup-project": "cli.js"
+  },
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "Yashasvi Jhala",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashasvijhala/cleanup-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yashasvijhala/cleanup-project/issues"
+  },
+  "homepage": "https://github.com/yashasvijhala/cleanup-project#readme",
+  "dependencies": {
+    "depcheck": "^1.4.6",
+    "glob": "^10.3.10"
+  }
+}
