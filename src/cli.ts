@@ -2,7 +2,7 @@
 
 import depcheck from 'depcheck'
 import fs from 'fs/promises'
-import glob from 'glob'
+import * as glob from 'glob'
 import path from 'path'
 
 async function removeUnusedDependencies() {
