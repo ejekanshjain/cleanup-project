@@ -1,12 +1,13 @@
 {
   "name": "cleanup-project",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
-  "main": "cli.js",
+  "main": "build/cli.js",
   "bin": {
-    "cleanup-project": "cli.js"
+    "cleanup-project": "build/cli.js"
   },
   "scripts": {
+    "build": "tsc",
     "start": "node ."
   },
   "keywords": [],
@@ -23,5 +24,9 @@
   "dependencies": {
     "depcheck": "^1.4.6",
     "glob": "^10.3.10"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.4",
+    "typescript": "^5.2.2"
   }
 }
